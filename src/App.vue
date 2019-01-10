@@ -1,13 +1,11 @@
 <template>
   <div id="app">
     <header>
-      <img class="logo" src="https://app.seniorvu.com/static/seniorvu-logo.svg">
+      <img class="logo" src="./assets/seniorvu-logo.svg">
     </header>
 
     <div class="container">
-      <h1>Communities</h1>
-
-      <!-- Communities component here -->
+      <router-view></router-view>
     </div>
   </div>
 </template>
