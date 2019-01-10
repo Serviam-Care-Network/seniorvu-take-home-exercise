@@ -15,11 +15,11 @@ Hey Developer. Welcome! Your mission, should you choose to accept it, is to carv
 * Be creative with this. We want to see a functional site that uses the sdk. When in doubt, make an executive decision.
   Functionality is more important than the look and feel. If you finish early, feel free to polish it up.
 * A user should be able to click on a community in the list. When a community is clicked, the page shows details about the community.
-* Once finished, send your solution files or a link to a github repo to brian.hann@seniorvu.com
+* Once finished, send your solution files or a link to a github repo to appdev@seniorvu.com
 
 # Overview
 
-* This repo contains a basic Vue 2 app as a starting point. To see it, do:
+* This repo contains a basic [Vue 2](https://vuejs.org/v2/api/) app as a starting point. To see it, do:
   1. `npm install`
   1. `npm run serve`
   1. Open http://localhost:8080/ in your browser (or whatever url the dev server spits out)
@@ -40,6 +40,7 @@ Hey Developer. Welcome! Your mission, should you choose to accept it, is to carv
   executes it, returning as promise; i.e. `seniorvu.communities(123).get()` runs `GET /api/communities/123`
 * You will not need an API key to access the public communities endpoint. Fetching communities in ES6 can be done like so:
 * Results from the API are paginated. You can use `limit` and `offset` to control output, if you want.
+* See https://api.seniorvu.com/docs/api/#!/Communities/get_api_communities for more details on the communities endpoint.
 
 ```js
 const SeniorVu = require('seniorvu-sdk');
