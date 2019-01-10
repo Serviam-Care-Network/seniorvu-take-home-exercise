@@ -21,8 +21,8 @@ Hey Developer. Welcome! Your mission, should you choose to accept it, is to carv
 
 * This repo contains a basic Vue 2 app as a starting point. To see it, do:
   1. `npm install`
-  2. `npm run serve`
-  3. Open http://localhost:8080/ in your browser (or whatever url the dev server spits out)
+  1. `npm run serve`
+  1. Open http://localhost:8080/ in your browser (or whatever url the dev server spits out)
 * If you feel more comfortable with another framework (React, Angular, etc) feel free to scrap our skeleton and roll
   your own.
 
@@ -39,6 +39,7 @@ Hey Developer. Welcome! Your mission, should you choose to accept it, is to carv
 * The SDK is a very simply wrapper around our API. It uses method chaining to build a request path, and then a verb method
   executes it, returning as promise; i.e. `seniorvu.communities(123).get()` runs `GET /api/communities/123`
 * You will not need an API key to access the public communities endpoint. Fetching communities in ES6 can be done like so:
+* Results from the API are paginated. You can use `limit` and `offset` to control output, if you want.
 
 ```js
 const SeniorVu = require('seniorvu-sdk');
