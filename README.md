@@ -3,7 +3,7 @@
 # Your Mission
 
 Hello Developer! For this exercise we'd like you to carve out 2 hours and create a single page app
-(SPA) using the [SeniorVu SDK](https://github.com/softvu/seniorvu-sdk) amd the front-end framework of your choice.
+(SPA) using the [SeniorVu SDK](https://github.com/softvu/seniorvu-sdk) and the front-end framework of your choice.
 
 > Hey this is important! We hope you can spend about two hours on this project. If you can finish faster -- great!
 > If not, limit yourself and don't spend much longer than 2 hours MAX. Explain any extra work you would do in a
