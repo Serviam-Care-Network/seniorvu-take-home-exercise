@@ -1,7 +1,9 @@
 <template>
-  <h1>Communities</h1>
+  <div>
+    <h1>Communities</h1>
 
-  <!-- Communities component here -->
+    <!-- Communities component here -->
+  </div>
 </template>
 
 <script>
