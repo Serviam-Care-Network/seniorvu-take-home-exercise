@@ -11,11 +11,11 @@ Hello Developer! For this exercise we'd like you to carve out 2 hours and create
 
 # Your Tasks
 
-* The home page of your app should show a list senior living communities from our api, using the SDK.
+* The home page of your app should show a list senior living communities from our API, using the SDK.
   You decide how you want to order the communities and how they are displayed.
 * Be creative with this. We want to see a functional site that uses the SDK. When in doubt, make an executive decision.
   Functionality is more important than the look and feel. If you finish early, feel free to polish it up.
-* A user should be able to click on a community in the list. When a community is clicked, the page shows details about the community.
+* A user should be able to click on a community in the list. When a community is clicked, the page shows some details about the community (name, address, company name, etc).
 * Once finished, send your solution files or a link to a github repo to appdev@seniorvu.com
 
 # Overview
