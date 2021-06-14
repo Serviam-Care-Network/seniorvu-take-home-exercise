@@ -46,7 +46,7 @@ Hello Developer! For this exercise we'd like you to carve out 2 hours and create
 * Fetching communities in ES6 can be done like so:
 
 ```js
-const SeniorVu = require('seniorvu-sdk');
+const SeniorVu = require('seniorvu-sdk').default;
 const seniorvu = new SeniorVu();
 const communities = await seniorvu.communities().get();
 ```
